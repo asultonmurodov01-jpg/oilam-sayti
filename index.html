@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080817">
+  <meta name="description" content="Abdumalikning oilasi haqida shaxsiy sayti.">
+  <title>Bizning Oilamiz | Abdumalik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <nav class="navbar">
+    <a href="#" class="logo"><span>✦</span> OILAM<span class="dot">.</span></a>
+    <a href="#family" class="nav-link">Oila a'zolari ↗</a>
+  </nav>
+
+  <header class="hero">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="hero-content">
+      <div class="eyebrow"><span class="live-dot"></span> BIZNING KICHIK OLAMIMIZ</div>
+      <h1>Eng katta<br>boyligim — <span>oilam.</span></h1>
+      <p class="hero-text">Har bir tabassumda baxt, har bir xotirada mehr, har bir yurakda oilamiz bor.</p>
+      <a class="hero-button" href="#family"><span>Oilamni ko'rish</span><span class="arrow">↓</span></a>
+      <div class="hero-note">MADE WITH LOVE BY ABDUMALIK ♥</div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+      <div class="core"><span>🏡</span></div>
+      <span class="float-icon icon-a">❤️</span><span class="float-icon icon-b">✨</span>
+      <span class="float-icon icon-c">🌙</span><span class="float-icon icon-d">🤍</span>
+      <div class="art-caption">MY HOME · MY WORLD</div>
+    </div>
+    <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+  </header>
+
+  <main>
+    <section class="family-section" id="family">
+      <div class="section-top">
+        <div><p class="eyebrow">MENING ENG YAQINLARIM</p><h2>Yuragimdagi <span>insonlar.</span></h2></div>
+        <p class="section-desc">Har biri hayotimning alohida bir bo'lagi. Tanlang va ular bilan tanishing.</p>
+      </div>
+
+      <div class="family-grid">
+        <button class="person-card dad" data-person="dad">
+          <span class="card-number">01 / FAMILY</span><span class="person-icon">🚛</span>
+          <span class="card-name">Dadam</span><span class="card-subtitle">Farrux · 39 yosh</span>
+          <span class="card-bottom">Hayot yo'limdagi tayanch <span>↗</span></span>
+        </button>
+        <button class="person-card mom" data-person="mom">
+          <span class="card-number">02 / FAMILY</span><span class="person-icon">🌷</span>
+          <span class="card-name">Ayam</span><span class="card-subtitle">36 yosh</span>
+          <span class="card-bottom">Mehr va muhabbat <span>↗</span></span>
+        </button>
+        <button class="person-card grandma" data-person="grandma">
+          <span class="card-number">03 / FAMILY</span><span class="person-icon">🤍</span>
+          <span class="card-name">Annam</span><span class="card-subtitle">67 yosh</span>
+          <span class="card-bottom">Oilamizning duosi <span>↗</span></span>
+        </button>
+        <button class="person-card brother" data-person="brother">
+          <span class="card-number">04 / FAMILY</span><span class="person-icon">📚</span>
+          <span class="card-name">Akam</span><span class="card-subtitle">11-sinf o'quvchisi</span>
+          <span class="card-bottom">Orzular sari <span>↗</span></span>
+        </button>
+        <button class="person-card me" data-person="me">
+          <span class="card-number">05 / FAMILY</span><span class="person-icon">💻</span>
+          <span class="card-name">Men — Abdumalik</span><span class="card-subtitle">14 yosh · Dasturchi bo'lish yo'lida</span>
+          <span class="card-bottom">Mening hikoyam <span>↗</span></span>
+        </button>
+      </div>
+
+      <div class="profile" id="profile" hidden>
+        <button class="profile-close" id="closeProfile" aria-label="Yopish">✕</button>
+        <div class="profile-visual"><div class="profile-glow"></div><span id="profileEmoji">❤️</span><small>FOREVER FAMILY</small></div>
+        <div class="profile-info"><p class="eyebrow">MENING OILAM</p><h3 id="profileName">Oilam a'zosi</h3><p id="profileDescription"></p><div class="profile-tag">♥ BIZ BIR OILAMIZ</div></div>
+      </div>
+    </section>
+
+    <section class="dream-section">
+      <div class="dream-orb"></div>
+      <div class="dream-content">
+        <p class="eyebrow">KELAJAKKA QADAM</p>
+        <h2>Bugun o'rganyapman.<br><span>Ertaga yarataman.</span></h2>
+        <p>Men Abdumalikman. 14 yoshdaman va maktabda o'qiyman. Dasturlashni o'rganib, o'z loyihalarimni yaratishni va kelajakda yaxshi dasturchi bo'lishni xohlayman.</p>
+        <div class="code-pill"><span>01</span> HTML <span>02</span> CSS <span>03</span> JavaScript</div>
+      </div>
+      <div class="code-art" aria-hidden="true">
+        <div class="code-window"><div class="window-dots"><i></i><i></i><i></i></div>
+<pre><span>const</span> dream = {
+  name: <b>"Abdumalik"</b>,
+  age: <b>14</b>,
+  goal: <b>"Dasturchi"</b>,
+  neverGiveUp: <em>true</em>
+};
+
+<span class="code-last">dream.goal = "SUCCESS";</span></pre></div>
+        <div class="code-badge">✦ FUTURE DEVELOPER</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-heart">♥</div><h2>Oilam — mening <span>olamim.</span></h2><p>Mehr bilan yaratilgan · Abdumalik © 2026</p><a href="#" class="back-top">YUQORIGA ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
